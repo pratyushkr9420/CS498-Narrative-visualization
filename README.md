@@ -1,4 +1,4 @@
-# CS498-Narrative-visualization
+# Narrative-visualization
 Interactive slideshow using d3.js
 
 ### About the Visualization
