@@ -3,9 +3,9 @@ Interactive slideshow using d3.js
 
 ### About the Visualization
 
-The chosen hybrid structure is an Interactive Slideshow. It consists of 3 slides where the reader has the ability to look at the full dataset as well as highlight data based on a categorical variable.
+The visualiation shown is an Interactive Slideshow. User can view the full data and intrepret it based on the categories of vehciles for whihc the emission stuy was done
 
-The visualization is based on a dataset from the Environment Protection Agency which contains horsepower, CO2 emission and vehicle type information of 4,411 vehicles manufactured in 2015.
+The visualization is based on a dataset from the Environment Protection Agency which contains horsepower, CO2 emission and vehicle type information vehicles manufactured in 2015.
 
 ### Scenes
 
@@ -13,9 +13,9 @@ There are three scenes in the narrative visualization. They follow the same temp
 - The project title is fixed in place above the visualization container for the duration of the narrative visualization.
 - The visualization container which displays the data and is consistent with height 510px, width 980px, and background color "grey" for the duration of the narrative visualization.
 - The plot axes and legend are consistent for the duration of the narrative visualization. The axes are linear and extend the range of the data.
-- The marks are circular and consistent in size and color for the duration of the narrative visualization.
-- The scenes were designed for consistency to keep the viewer from getting disoriented through transitions.
-- The order of the scenes were chosen to first highlight the overall trend of the data in scene 1, second to explore that trend in scene 2 based on the categorical variable vehicle "type" and see that even among different vehicles types the trend is consistent, and finally in scene 3 ask the user to reflect on this trend and perhaps consider it when making his next vehicle purchase.
+- The ticks used in the plot are uniform in size and color for entire visualization.
+- The scenes were designed for smoot transitions wihout any isntance when the user gets disoriented
+- The first scene highlight the overall trend of the data, second shows the trend in the data being consistent based , and finally in scene 3 ask the user to reflect on this trend and perhaps consider it when making his next vehicle purchase.
 
 ### Annotations
 
@@ -45,11 +45,7 @@ The user event of "mouse over" a data point changes the current state of the cha
 
 ### References
 
-Example of Interative Slideshow from NY Times used as reference:
-https://archive.nytimes.com/www.nytimes.com/interactive/2010/02/02/us/politics/20100201-budget-porcupine-graphic.html
-
 Tutorial for building a stepper page used as reference:
 http://vallandingham.me/stepper_steps.html
 
-D3 Scatter plot example used as reference:
-http://bl.ocks.org/weiglemc/6185069
+
