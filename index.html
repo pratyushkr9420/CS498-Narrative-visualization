@@ -34,7 +34,7 @@
          </div>
         <div class="annotation-step" id="step2-annotation">
           <div class="annotation" id="step2-high-annotation" >
-	    <h4>Mouseover the data to see the individual trends for Cars, Trucks or SUVs.</h4>
+	    <h4>Mouseover the data to see the individual trends for Cars, Trucks or both.</h4>
 				
           </div>
         </div>
@@ -94,7 +94,7 @@
 	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	// Get the data
-	d3.csv("https://raw.githubusercontent.com/pratyushkr9420/CS498-Narrative-visualization/master/data/epa2015_revised.csv", function(error, data) {
+	d3.csv("https://raw.githubusercontent.com/pratyushkr9420/CS498-Narrative-visualization/master/data/epa2017_revised.csv", function(error, data) {
 	  if (error) throw error;
 
 	  data.forEach(function(d) {
