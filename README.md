@@ -3,9 +3,7 @@ Interactive slideshow using d3.js
 
 ### About the Visualization
 
-The visualiation shown is an Interactive Slideshow. User can view the full data and intrepret it based on the categories of vehciles for whihc the emission stuy was done
-
-The visualization is based on a dataset from the Environment Protection Agency which contains horsepower, CO2 emission and vehicle type information vehicles manufactured in 2017. The visualization serves the purpose of user to interact data in order to make the decision regarding purchasing your next vehicle with an effort to make the balance between horspower and enviornment damage by carbon dioxide emission. 
+The visualiation shown is an Interactive Slideshow. User can view the full data and intrepret it based on the categories of vehicles for which the emission study was done. The visualization is based on a dataset from the Environment Protection Agency which contains horsepower, CO2 emission and vehicle type information vehicles manufactured in 2017. The visualization serves the purpose of user to interact data in order to make the decision regarding purchasing your next vehicle with an effort to make the balance between horspower and enviornment damage by carbon dioxide emission. 
 
 ### Scenes
 
