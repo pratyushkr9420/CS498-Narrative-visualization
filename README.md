@@ -9,20 +9,11 @@ The visualization is based on a dataset from the Environment Protection Agency w
 
 ### Scenes
 
-There are three scenes in the narrative visualization. They follow the same template and layout for visual consistency. 
-- The project title is fixed in place above the visualization container for the duration of the narrative visualization.
-- The visualization container which displays the data and is consistent with height 510px, width 980px, and background color "grey" for the duration of the narrative visualization.
-- The plot axes and legend are consistent for the duration of the narrative visualization. The axes are linear and extend the range of the data.
-- The ticks used in the plot are uniform in size and color for entire visualization.
-- The scenes were designed for smoot transitions wihout any isntance when the user gets disoriented
-- The first scene highlight the overall trend of the data, second shows the trend in the data being consistent based , and finally in scene 3 ask the user to reflect on this trend and perhaps consider it when making his next vehicle purchase.
+There are three scenes in the narrative visualization. They follow the same template and layout for visual consistency. The visualization displays data consistentently with frame of height 510px, width 980px.The axes used in the plot were made in linear scale. The ticks used in the plot are uniform in size and color for entire visualization.The scenes were designed for smoot transitions wihout any isntance when the user gets disoriented. The first scene highlight the overall trend of the data, second shows the trend in the data being consistent based , and finally in scene 3 ask the user to reflect on this trend and perhaps consider it when making his next vehicle purchase.
 
 ### Annotations
 
-Annotations are used to highlight a trend in the data, direct the user to further investigate the data, and ask the user to draw a conclusion from the data. The annotations use a consistent template for font size and a bolded style.
-- The annotation in Scene 1 is text positioned inside the visualization container meant to highlight the primary finding of the visualization. "As horsepower increases C02 emissions increase for all vehicle types." When the user clicks the button to transition forward to Scene 2 or Scene 3 the annotation for Scene 1 is cleared.
-- The annotation in Scene 2 is text positioned inside the visualization container meant to highlight the possibility of user engagement with the data. The user is invited to mouseover the data to see the trends for Cars, Trucks or SUVs independently. When the user clicks the button to navigate back to Scene 1 or forward to Scene 3 the annotation for Scene 2 is cleared.
-- The annotation in Scene 3 is text positioned inside the visualization container meant to ask the user to reflect on what has been discovered in this narrative visualization and to consider this information when making his next vehicle purchase. When the user clicks the button to navigate back to Scene 1 or to Scene 2 the annotation for Scene 3 is cleared.
+Annotations are used highlight trends and gain further in-depth insigts and conclusions from the data. They have been made bold and have unfirom font size across the entire narrative visualization. Visaulization's scene 1 has anntation to highlight the general trend in the data that increase in horsepower will increase the carbon dioxide emission. Visaulization's scene 2 allows for mouseover the data to see the trends for Cars, Trucks or both. Visaulization's scene 3 has annotation which helps user interact and make a decision about future purchase decisions. 
 
 ### Parameters
 
